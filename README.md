@@ -111,7 +111,7 @@ SSH into the control node and follow the steps below:
 
 - Copy the install-elk.yml file to /etc/ansible.
 - Update the /etc/ansible/hosts file to include ELK server (Web servers are pre-configured).
-- Run the playbook, and navigate to [http://20.83.126.21:5601/app/kibana] to check that the installation worked as expected.
+- Run the playbook, and navigate to http://[Elk-VM-ip:5601]/app/kibana to check that the installation worked as expected.
  
 ** To run the playbook, use the command:
   - ansible [playbook_name].yml
