@@ -3,13 +3,15 @@
 The files in this repository were used to configure the network depicted below.
 ![image](https://user-images.githubusercontent.com/89222100/145265087-7f01f593-ea8b-4aca-94bd-746a7f047b08.png)
 
-https://drive.google.com/file/d/1mj4dSPeZ_gRnxrqOXWYEt9QrUQf-rG3X/view?usp=sharing
+[ELK-stack-diagram.png](https//github.com/apeg099/project1_elkstack/)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the my-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
 - /etc/ansible/install-elk.yml
 
-![image](https://user-images.githubusercontent.com/89222100/145149560-aee8e2db-bc33-4765-bab6-e94441156f6c.png)
+![image](https://user-images.githubusercontent.com/89222100/145271932-3f5322a0-a7fd-4e80-bfba-2bea76abda6d.png)
+
+[install-elk.yml](https//github.com/apeg099/project1_elkstack/Ansible_Playbooks/install-elk.yml)
 
 This document contains the following details:
 
@@ -85,7 +87,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![image](https://user-images.githubusercontent.com/89222100/145151423-8e65c654-1b04-4f27-85f9-57832bd22d94.png)
+![docker_ps](https://https://github.com/apeg099/project1_elkstack/blob/main/images/docker_ps.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
