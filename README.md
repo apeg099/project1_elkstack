@@ -114,7 +114,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to http://[Elk-VM-ip:5601]/app/kibana to check that the installation worked as expected.
  
 ** To run the playbook, use the command:
-  - ansible [playbook_name].yml
+  - ansible-playbook [playbook_name].yml
 
 ** To update the playbook, use the command:
   - nano [playbook_name].yml
